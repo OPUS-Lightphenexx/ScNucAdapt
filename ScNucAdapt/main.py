@@ -16,7 +16,7 @@ torch.manual_seed(seed)
 #np.set_printoptions(threshold=np.inf)
 
 
-from ScUniverse.Utils import CS, split_and_merge_op, Arg, pairwise_distance
+from Utils import CS, split_and_merge_op, Arg, pairwise_distance
 import numpy as np
 array = np.load(r'')
 y = np.load(r'',allow_pickle=True)
