@@ -20,6 +20,11 @@ states. This capability is particularly valuable for studying archived frozen sa
 fragile cell types that are difficult to analyze with conventional methods, potentially
 accelerating discoveries in various fields.
 
+# Files
+- `ScNucAdapt/Loss`: CS Divergence Loss
+- `ScNucAdapt/Network`: Main Network
+- `ScNucAdapt/Utils`: Utils for ScNucAdapt
+- `ScNucAdapt/main`: main training for ScNucAdapt
 ## Usage<a id="usage"></a>
 Input your preprocessed numpy array data into array(source) and array2(target) in main.py
 
