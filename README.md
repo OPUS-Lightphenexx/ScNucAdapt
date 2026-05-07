@@ -1,6 +1,7 @@
 # ScNucAdapt: Partial domain adaptation enables cross domain cell type annotation between scRNA-seq and snRNA-seq
 >  Xiran Chen, Quan Zou, Qinyu Cai, Xiaofeng Chen, Weikai Li*, Yansu Wang*<br>
 >  PLoS Computational Biology 2026<br>
+>  DOI: https://doi.org/10.1371/journal.pcbi.1014223<br>
 
 Single-cell and single-nucleus RNA sequencing are two powerful technologies that allow
 scientists to study gene activity in individual cells. However, comparing data between
