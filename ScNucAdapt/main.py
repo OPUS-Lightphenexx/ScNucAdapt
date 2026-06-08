@@ -41,9 +41,7 @@ print(np.bincount(y))
 print(np.bincount(y2))
 
 hyperparameter=400000000000000
-# ---------------------------
-# 2) Simple Autoencoder
-# ---------------------------
+
 class Base(nn.Module):
     def __init__(self, input_dim, latent_dim=50):  # 2D latent for direct plotting
         super().__init__()
@@ -86,9 +84,6 @@ y2 = y2.to(device)
 source_dataset = TensorDataset(X_tensor, y)
 source_dataloader = DataLoader(source_dataset, batch_size=1028)
 
-# ---------------------------
-# 3) Train Autoencoder (no batches)
-# ---------------------------
 for epoch in range(52000):  # small number for demo
     loss_calculate = 0
 
